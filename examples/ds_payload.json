@@ -1,0 +1,40 @@
+[
+    {
+        "account": {
+            "id": "<account_id>",
+            "name": "kcdubois - AWS account",
+            "cloudType": "aws"
+        },
+        "region": "AWS Canada",
+        "policy": {
+            "name": "Objects containing Malware",
+            "id": "003582e3-a444-45d2-a873-68e7c62a712c",
+            "description": "This policy scans for objects containing Malware using Wildfire as a Service.",
+            "recommendation": "Delete the file",
+            "severity": "high",
+            "labels": []
+        },
+        "resource": {
+            "resourceId": "kcduboismalwaretest",
+            "resourceName": "wildfire-test-elf-file.exe"
+        },
+        "metadata": {
+            "bucketName": "kcduboismalwaretest",
+            "bucketRrn": "rrn:aws:storageBucket:ca-central-1:<account_id>::kcduboismalwaretest",
+            "owner": "Default User",
+            "classification": [],
+            "dataIdentifiers": [],
+            "malwarev2": "malware",
+            "objectExposure": "private",
+            "objectTags": []
+        },
+        "reason": "NEW_ALERT",
+        "alertId": "D-844101",
+        "alertStatus": "open",
+        "alertRuleId": "bf612634-1714-44b6-982b-01823562a1dd",
+        "alertRuleName": "kcdubois | All policies",
+        "generatedAtTs": "1686943640",
+        "service": "Prisma Cloud Compute",
+        "policyType": "storage",
+    }
+]
