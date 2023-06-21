@@ -35,6 +35,6 @@
         "alertRuleName": "kcdubois | All policies",
         "generatedAtTs": "1686943640",
         "service": "Prisma Cloud Compute",
-        "policyType": "storage",
+        "policyType": "storage"
     }
 ]
